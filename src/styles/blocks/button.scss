@@ -9,6 +9,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 27px;
+  cursor: pointer;
 
   @include on-tablet {
     width: 324px;
@@ -28,6 +29,7 @@
 
   &--form {
     grid-column: 1 / -1;
+    width: 100%;
   }
 
   @include on-tablet {

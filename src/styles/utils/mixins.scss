@@ -49,6 +49,28 @@
   }
 }
 
+.animation-image {
+  transition:
+    transform,
+    box-shadow 0.5s ease;
+
+  &:hover {
+    transform: scale(105%);
+    box-shadow: 1px 4px 16px #e8e8f066;
+  }
+}
+
+.animation-text {
+  transition:
+    transform,
+    text-shadow 0.5s ease;
+
+  &:hover {
+    transform: scale(105%);
+    text-shadow: 1px 4px 16px #e8e8f066;
+  }
+}
+
 .container {
   @include constent-padding-inline;
 }

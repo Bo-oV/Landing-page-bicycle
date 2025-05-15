@@ -11,9 +11,11 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>My Bike</title>
-    <link rel="icon"
-    href="/src/images/favicon.png"
-    type="image/x-icon" />
+    <link
+      rel="icon"
+      href="/src/images/favicon.png"
+      type="image/x-icon"
+    />
     <link
       rel="stylesheet"
       href="./styles/style.scss"
@@ -48,15 +50,36 @@
             >
               <img
                 class="top-bar__logo"
-                src="/src/images/Logo.png"
+                src="/src/images/MyBiKE.svg"
                 alt="Mi Bike logo"
               />
             </a>
             <div class="top-bar__icons">
-              <a
-                href="#"
-                class="icon icon--phone"
-              ></a>
+              <div class="call">
+                <a
+                  href="tel:+12345555555"
+                  class="icon icon--phone"
+                ></a>
+                <div class="top-bar__header">
+                  <span class="call__title">Тumber in the main office</span>
+                  <a
+                    href="tel:+12345555577"
+                    class="call__text"
+                    title="+12345555577"
+                  >
+                    +1234555577
+                  </a>
+                  <span class="call__title">Additional number</span>
+                  <a
+                    href="tel:+12345555555"
+                    class="call__text"
+                    title="+380-96-888-98"
+                  >
+                    +12345555555
+                  </a>
+                </div>
+              </div>
+
               <a
                 href="#menu"
                 class="icon icon--menu"
@@ -64,7 +87,7 @@
             </div>
           </div>
           <div class="header__bottom">
-            <h1 class="header__title">Take the Streets</h1>
+            <h1 class="header__title animation-text">Take the Streets</h1>
           </div>
         </div>
       </div>
@@ -82,7 +105,7 @@
           >
             <img
               class="top-bar__logo"
-              src="/src/images/LogoBlack.png"
+              src="/src/images/Logo.svg"
               alt="Mi Bike logo"
             />
           </a>
@@ -160,11 +183,11 @@
             id="about-us"
           >
             <h2
-              class="about-us__title section-title section-title--alight--left"
+              class="about-us__title animation-text section-title section-title--alight--left"
             >
               Move Free
             </h2>
-            <p class="section-title--text about-us__content">
+            <p class="section-title--text about-us__content animation-text">
               Shift your ride, not gears. Find the fastest way to move in the
               city as the bike adapts intuitively to power the speed you need.
             </p>
@@ -173,47 +196,53 @@
             class="compare-bikes"
             id="compare-bikes"
           >
-            <h2 class="section-title">Compare Bikes</h2>
+            <h2 class="section-title animation-text">Compare Bikes</h2>
             <!-- #region product -->
             <div class="compare-bikes__products">
-              <article class="product compare-bikes__product">
+              <article class="product compare-bikes__product animation-image">
                 <img
                   src="./images/products/bike_green.png"
                   alt="bike"
                   class="product__photo"
                 />
-                <h3 class="product__title">Sporty 4</h3>
-                <p class="product__category">
-                  The iconic frame brought to a new performance height as a
-                  sporty, active ride.
-                </p>
-                <p class="product__prise">$ 2 590</p>
+                <div class="product__category">
+                  <h3 class="product__title">Sporty 1</h3>
+                  <p>
+                    The iconic frame brought to a new performance height as a
+                    sporty, active ride.
+                  </p>
+                  <p class="product__prise">$ 2 590</p>
+                </div>
               </article>
-              <article class="product compare-bikes__product">
+              <article class="product compare-bikes__product animation-image">
                 <img
                   src="./images/products/bike_center.png"
                   alt="bike"
                   class="product__photo"
                 />
-                <h3 class="product__title">Sporty 4</h3>
-                <p class="product__category">
-                  The iconic frame brought to a new performance height as a
-                  sporty, active ride.
-                </p>
-                <p class="product__prise">$ 2 590</p>
+                <div class="product__category">
+                  <h3 class="product__title">Sporty 2</h3>
+                  <p>
+                    The iconic frame brought to a new performance height as a
+                    sporty, active ride.
+                  </p>
+                  <p class="product__prise">$ 2 590</p>
+                </div>
               </article>
-              <article class="product compare-bikes__product">
+              <article class="product compare-bikes__product animation-image">
                 <img
                   src="./images/products/bike_right.png"
                   alt="bike"
                   class="product__photo"
                 />
-                <h3 class="product__title">Sporty 4</h3>
-                <p class="product__category">
-                  The iconic frame brought to a new performance height as a
-                  sporty, active ride.
-                </p>
-                <p class="product__prise">$ 2 590</p>
+                <div class="product__category">
+                  <h3 class="product__title">Sporty 3</h3>
+                  <p>
+                    The iconic frame brought to a new performance height as a
+                    sporty, active ride.
+                  </p>
+                  <p class="product__prise">$ 2 590</p>
+                </div>
               </article>
             </div>
             <!-- #endregion -->
@@ -222,7 +251,7 @@
             class="details"
             id="details"
           >
-            <h2 class="section-title">The Details</h2>
+            <h2 class="section-title animation-text">The Details</h2>
             <div class="details__wrapper">
               <article class="detail">
                 <div class="detail__photos">
@@ -231,7 +260,7 @@
                     class="detail__link detail__link--wide"
                   >
                     <img
-                      class="detail__photo"
+                      class="detail__photo animation-image"
                       src="./images/details/bike-phone.png"
                       alt="Photo bike"
                     />
@@ -242,14 +271,14 @@
                     class="detail__link detail__link--square"
                   >
                     <img
-                      class="detail__photo"
+                      class="detail__photo animation-image"
                       src="./images/details/bike.png"
                       alt="Photo bike"
                     />
                   </a>
                 </div>
-                <h3 class="detail__title">Auto Unlock</h3>
-                <p class="detail__text">
+                <h3 class="detail__title animation-text">Auto Unlock</h3>
+                <p class="detail__text animation-text">
                   The app senses when you're nearby to unlock automatically. GPS
                   tracking so you know where your bike is and can track it
                   anytime.
@@ -263,7 +292,7 @@
                     class="detail__link detail__link--wide"
                   >
                     <img
-                      class="detail__photo"
+                      class="detail__photo animation-image"
                       src="./images/details/bike2.png"
                       alt="Photo bike"
                     />
@@ -274,14 +303,16 @@
                     class="detail__link detail__link--square"
                   >
                     <img
-                      class="detail__photo"
+                      class="detail__photo animation-image"
                       src="./images/details/bike22.png"
                       alt="Photo bike"
                     />
                   </a>
                 </div>
-                <h3 class="detail__title">Range & Integrated lights</h3>
-                <p class="detail__text">
+                <h3 class="detail__title animation-text">
+                  Range & Integrated lights
+                </h3>
+                <p class="detail__text animation-text">
                   The removable battery has up to 70km battery autonomy and
                   weighs only 2.4 kg. Lights integrated into the frame give you
                   always-on visibility day and night.
@@ -295,7 +326,7 @@
                     class="detail__link detail__link--wide"
                   >
                     <img
-                      class="detail__photo"
+                      class="detail__photo animation-image"
                       src="./images/details/bike3.png"
                       alt="Photo bike"
                     />
@@ -306,16 +337,16 @@
                     class="detail__link detail__link--square"
                   >
                     <img
-                      class="detail__photo"
+                      class="detail__photo animation-image"
                       src="./images/details/bike3-2.png"
                       alt="Photo bike"
                     />
                   </a>
                 </div>
-                <h3 class="detail__title">
+                <h3 class="detail__title animation-text">
                   Hydraulic disc brakes & Lightweight
                 </h3>
-                <p class="detail__text">
+                <p class="detail__text animation-text">
                   Brakes with total stopping power the second you make contact.
                   The removable battery has up to 70km battery autonomy and
                   weighs only 2.4 kg. Lights integrated into the frame give you
@@ -329,9 +360,12 @@
             class="contacts"
             id="contacts"
           >
-            <h2 class="section-title">Contact us</h2>
+            <h2 class="section-title animation-text">Contact us</h2>
             <div class="contacts__date">
-              <form class="form">
+              <form
+                onsubmit="this.reset(); return false;"
+                class="form"
+              >
                 <input
                   type="text"
                   id="name"
@@ -356,25 +390,44 @@
                   required
                 ></textarea>
 
-                <button class="button button--form">Send</button>
+                <button
+                  type="submit"
+                  class="button button--form"
+                >
+                  Send
+                </button>
               </form>
 
               <div class="info">
-                <div class="info__block">
+                <div class="info__block animation-text">
                   <p class="info__title">Phone</p>
-                  <p class="info__text">+1 234 5555-55-55</p>
+                  <a
+                    class="info__text"
+                    href="tel:+12345555555"
+                  >
+                    +1 234 5555-55-55
+                  </a>
                 </div>
 
-                <div class="info__block">
+                <div class="info__block animation-text">
                   <p class="info__title">Email</p>
-                  <p class="info__text">hello@miami.com</p>
+                  <a class="info__text">hello@miami.com</a>
                 </div>
 
-                <div class="info__block">
+                <div class="info__block animation-text">
                   <p class="info__title">Address</p>
-                  <p class="info__text">
-                    400 first ave. suite 700Minneapolis, MN 55401
-                  </p>
+                  <a
+                    class="info__text"
+                    href="https://maps.app.goo.gl/F9YJUtZjirBtKsrg9"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    400 first ave.
+                    <br />
+                    suite
+                    <br />
+                    700Minneapolis, MN 55401
+                  </a>
                 </div>
               </div>
             </div>
