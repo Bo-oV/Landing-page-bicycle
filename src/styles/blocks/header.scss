@@ -8,20 +8,23 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
   }
 
   &__title {
     margin: 0;
-    font-size: 36px;
+
+    @include title-size;
+
     font-weight: 700;
     letter-spacing: -1.5px;
     line-height: 100%;
     vertical-align: middle;
     text-align: center;
+    color: $text-color-headlines;
   }
 
   &__bottom {
-    padding-bottom: 80px;
+    padding-top: 0;
   }
 }

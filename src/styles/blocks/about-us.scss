@@ -6,6 +6,7 @@
   line-height: 100%;
   text-align: center;
 
+
   @include on-tablet {
     margin-bottom: 120px;
     font-size: 48px;
@@ -24,6 +25,8 @@
       text-align-last: left;
     }
   }
+
+  color: $text-color-headlines
 }
 
 .about-us {

@@ -49,6 +49,19 @@
   }
 }
 
+@mixin title-size {
+  font-size: 36px;
+
+  @include on-tablet {
+    font-size: 64px;
+  }
+
+  @include on-desctop {
+    font-size: 80px;
+  }
+}
+
+
 .animation-image {
   transition:
     transform,
