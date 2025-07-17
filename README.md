@@ -15,7 +15,7 @@ A landing page for showcasing an innovative bicycle. Built according to a Figma 
 
 ## 🎨 Design Mockup
 
-[🔗 Figma – MYBIKE](https://www.figma.com/design/XrwxMkfSEQKCI8QRMwIdHc/Bike-PORTFOLIO?node-id=0-1&t=uy5gvPa9t88om55P-1)
+[🔗 Figma ](https://www.figma.com/design/XrwxMkfSEQKCI8QRMwIdHc/Bike-PORTFOLIO?node-id=0-1&t=uy5gvPa9t88om55P-1)
 
 ## 📦 How to Run Locally
 
