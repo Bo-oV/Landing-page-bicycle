@@ -11,8 +11,7 @@ A landing page for showcasing an innovative bicycle. Built according to a Figma 
 
 ## 🔗 Live Preview
 
-[👉 View Site (GitHub Pages)](https://Bo-oV.github.io/layout_landing-page/)
-*(Replace `your-username` with your actual GitHub username)*
+[👉 View Site (GitHub Pages)](https://Bo-oV.github.io/Landing-page-bicycle/)
 
 ## 🎨 Design Mockup
 
